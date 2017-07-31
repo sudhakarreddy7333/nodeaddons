@@ -1,0 +1,14 @@
+﻿Build started 7/26/2017 3:39:57 PM.
+     1>Project "D:\Frontend\ElectronCpp\ElectronCppAdv\ElectronCppAdv.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Frontend\ElectronCpp\Debug\ElectronCpp1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Frontend\ElectronCpp\Debug\ElectronCpp1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Frontend\ElectronCpp\Debug\ElectronCpp1.lib" /MACHINE:X86 Debug\ElectronCpp1.obj
+         Debug\SourceInterface.obj
+     1>ElectronCpp1.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ElectronCpp::ElectronCppClass::HelloWorld(void)" (?HelloWorld@ElectronCppClass@ElectronCpp@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ElectronCpp1::ElectronCpp1Class::HelloWorld(void)" (?HelloWorld@ElectronCpp1Class@ElectronCpp1@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+     1>ElectronCpp1.obj : error LNK2019: unresolved external symbol "public: int __thiscall ElectronCpp::ElectronCppClass::Multiply(int,int)" (?Multiply@ElectronCppClass@ElectronCpp@@QAEHHH@Z) referenced in function "public: int __thiscall ElectronCpp1::ElectronCpp1Class::Multiply(int,int)" (?Multiply@ElectronCpp1Class@ElectronCpp1@@QAEHHH@Z)
+     1>MSVCRTD.lib(crtexew.obj) : error LNK2019: unresolved external symbol _WinMain@16 referenced in function ___tmainCRTStartup
+     1>D:\Frontend\ElectronCpp\Debug\ElectronCpp1.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "D:\Frontend\ElectronCpp\ElectronCppAdv\ElectronCppAdv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40
